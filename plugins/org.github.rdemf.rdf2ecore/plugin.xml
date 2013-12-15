@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.github.rdemf.core.binding">
+      <binding
+            impl="org.github.rdemf.rdf2ecore.impl.RDF2Ecore"
+            interface="org.github.rdemf.rdf2ecore.IRDF2Ecore"
+            priority="1">
+      </binding>
+      <binding
+            impl="org.github.rdemf.rdf2ecore.transform.impl.RDFTransform"
+            interface="org.github.rdemf.rdf2ecore.transform.IRDFTransform"
+            priority="1">
+      </binding>
+   </extension>
+
+</plugin>

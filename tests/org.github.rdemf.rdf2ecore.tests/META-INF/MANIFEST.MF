@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName: org.github.rdemf.rdf2ecore.tests
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.github.rdemf.rdf2ecore;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.junit
+Import-Package: org.openrdf.model,
+ org.openrdf.repository,
+ org.openrdf.sail.memory
